@@ -1,6 +1,6 @@
  class Api { 
   constructor() {
-      this.api = "http://127.0.0.1:8100/api/"; //dev api
+      this.api = "localhost/api/"; //dev api
   }
   getDatabaseSetupEndPoint() {
       return this.api+"config/database_setup.php";
