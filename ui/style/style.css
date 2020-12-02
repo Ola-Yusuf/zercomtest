@@ -11,9 +11,12 @@
   width: 70%;
 }
 
-table {
+table,
+tr,
+td {
   text-align: left;
   border: 5px;
+  border-color: black;
 }
 tr {
   padding-top: 10px;
@@ -56,6 +59,6 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   border-radius: 9px;
 }
