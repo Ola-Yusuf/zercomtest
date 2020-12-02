@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CANDIDATE</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+   <section id="selectSection">
+    <div class="button-container">
+      <button id="students_center_button"> Students and Their Center</button>
+      <button id="students_subject_button"> Students and Their Subject</button>
+      <button id="students_art_class_button"> Students in Art Class</button>
+      <button id="students_commercial_class_button"> Students in Commercial Class</button>
+      <button id="students_science_class_button"> Students in Science Class</button>
+      <button id="fibonacci_series_button"> Fibonacci Series</button>
+    </div>
+  </section>
+ <section class='info' style="margin: auto; width: 50%;" id="student_center_section">
+      <table id="student_center_table">
+        <thead>
+          <tr><th colspan="2"> <strong> STUDENT AND THEIR CENTER </strong></th></tr>
+          <tr><th>S/N</th><th>NAME</th><th>CENTER</th></tr>
+        </thead>
+        <tbody id="student_center_table_body"> </tbody>
+      </table>
+  </section>
+  <section class='info' style="margin: auto; width: 50%;" id="student_subject_section">
+        <table id="student_subject_table">
+          <thead>
+            <tr><th colspan="4"> <strong> STUDENT AND THEIR SUBJECT </strong></th></tr>
+          <tr><th>S/N</th><th>NAME</th><th>CATEGORY</th><th>SUBJECTS</th></tr>
+        </thead>
+          <tbody id="student_subject_table_body"> </tbody>
+        </table>
+  </section>
+  <section class='info' style="margin: auto; width: 50%;" id="student_science_section">
+        <table id="student_science_table">
+          <thead>
+            <tr><th colspan="2"> <strong> STUDENT IN SCIENCE CLASS </strong></th></tr>
+          <tr><th>S/N</th><th>NAME</th></tr>
+        </thead>
+          <tbody id="student_science_table_body"> </tbody>
+        </table>
+  </section>
+  <section class='info' style="margin: auto; width: 50%;" id="student_art_section">
+      <table id="student_art_table">
+          <thead>
+            <tr><th colspan="2"> <strong> STUDENT IN ART CLASS </strong></th></tr>
+          <tr><th>S/N</th><th>NAME</th></tr>
+        </thead>
+          <tbody id="student_art_table_body"> </tbody>
+        </table>
+  </section>
+  <section class='info' style="margin: auto; width: 50%;" id="student_commercial_section">
+        <table id="student_commercial_table">
+          <thead>
+            <tr><th colspan="2"> <strong> STUDENT IN COMMERCIAL CLASS </strong></th></tr>
+            <tr><th>S/N</th><th>NAME</th></tr>
+        </thead>
+          <tbody id="student_commercial_table_body"> </tbody>
+        </table>
+  </section>
+  <section class='info' style="margin: auto; width: 50%;" id="fibonacci_series_section">
+    
+        <table id="fibonacci_series_table">
+            <tr><td>Enter Number</td><td><input type="number" name="fbNum" id="fbNum" value="1"></td></tr>
+            <tr><td>Fibonacci Series</td><td id="fibonacci_series_result"></td></tr>
+        </table>
+  </section>
+  </div>
+  <script type="text/javascript" src="js/api.js"></script>
+</body>
+</html>
